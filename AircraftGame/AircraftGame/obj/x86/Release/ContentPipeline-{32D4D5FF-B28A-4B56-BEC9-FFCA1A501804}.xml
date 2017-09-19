@@ -1,0 +1,712 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Asteroid1.FBX</Source>
+      <Name>Asteroid1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\Asteroid1.xnb</Output>
+      <Time>2013-09-11T13:13:35.8416435-04:00</Time>
+      <Dependency>
+        <Key>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\Asteroid1_0.xml</Key>
+        <Value>2013-09-15T11:34:10.9835145-04:00</Value>
+      </Dependency>
+      <Request>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\moon512_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Asteroid2.FBX</Source>
+      <Name>Asteroid2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\Asteroid2.xnb</Output>
+      <Time>2013-09-11T13:13:35.8416435-04:00</Time>
+      <Dependency>
+        <Key>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\Asteroid2_0.xml</Key>
+        <Value>2013-09-15T11:34:12.0350493-04:00</Value>
+      </Dependency>
+      <Request>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\phobos_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Asteroid3.FBX</Source>
+      <Name>Asteroid3</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\Asteroid3.xnb</Output>
+      <Time>2013-09-11T13:13:35.8416435-04:00</Time>
+      <Dependency>
+        <Key>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\Asteroid3_0.xml</Key>
+        <Value>2013-09-15T11:34:12.7843549-04:00</Value>
+      </Dependency>
+      <Request>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\deimos_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>FederalObserver01.FBX</Source>
+      <Name>FederalObserver01</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\FederalObserver01.xnb</Output>
+      <Time>2013-09-10T19:33:56.8781461-04:00</Time>
+      <Dependency>
+        <Key>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\FederalObserver01_0.xml</Key>
+        <Value>2013-09-15T11:34:13.407775-04:00</Value>
+      </Dependency>
+      <Request>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\S01_512_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>FederalObserver02.FBX</Source>
+      <Name>FederalObserver02</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\FederalObserver02.xnb</Output>
+      <Time>2013-09-10T19:33:56.8796463-04:00</Time>
+      <Dependency>
+        <Key>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\FederalObserver02_0.xml</Key>
+        <Value>2013-09-15T11:34:14.5835543-04:00</Value>
+      </Dependency>
+      <Request>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\S02_512_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Ship.fbx</Source>
+      <Name>Ship</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\Ship.xnb</Output>
+      <Time>2013-09-10T19:33:56.8876504-04:00</Time>
+      <Dependency>
+        <Key>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\Ship_0.xml</Key>
+        <Value>2013-09-15T11:34:18.7118426-04:00</Value>
+      </Dependency>
+      <Request>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\ShipDiffuse_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>xwing.fbx</Source>
+      <Name>xwing</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\xwing.xnb</Output>
+      <Time>2013-09-10T19:33:56.8991579-04:00</Time>
+      <Dependency>
+        <Key>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\xwing_0.xml</Key>
+        <Value>2013-09-15T11:34:22.970683-04:00</Value>
+      </Dependency>
+      <Request>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\ENGINE2_0.xnb</Request>
+      <Request>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\WINGFRON_0.xnb</Request>
+      <Request>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\WINGBACK_0.xnb</Request>
+      <Request>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\WINGDOWN_0.xnb</Request>
+      <Request>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\WINGTOP_0.xnb</Request>
+      <Request>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\LASER_0.xnb</Request>
+      <Request>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\ENGINE_0.xnb</Request>
+      <Request>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\XSIDE_0.xnb</Request>
+      <Request>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\XWBACK_0.xnb</Request>
+      <Request>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\XWTOP_0.xnb</Request>
+      <Request>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\XWDOWN_0.xnb</Request>
+      <Request>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\PLATEOX2_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Asteroid4.FBX</Source>
+      <Name>Asteroid4</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\Asteroid4.xnb</Output>
+      <Time>2013-09-11T13:13:35.8416435-04:00</Time>
+      <Dependency>
+        <Key>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\Asteroid4_0.xml</Key>
+        <Value>2013-09-15T11:34:25.9676801-04:00</Value>
+      </Dependency>
+      <Request>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\asteroid_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>LaserBlast.FBX</Source>
+      <Name>LaserBlast</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\LaserBlast.xnb</Output>
+      <Time>2013-09-11T17:24:29.2548494-04:00</Time>
+      <Dependency>
+        <Key>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\LaserBlast_0.xml</Key>
+        <Value>2013-09-15T11:34:26.4019696-04:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>cloud09.jpg</Source>
+      <Name>cloud09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\cloud09.xnb</Output>
+      <Time>2013-09-13T01:25:51.6371189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>splash.jpg</Source>
+      <Name>splash</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\splash.xnb</Output>
+      <Time>2010-11-26T05:50:38-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Background01.jpg</Source>
+      <Name>Background01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\Background01.xnb</Output>
+      <Time>2013-09-13T16:34:59.5748384-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ButtonPurple2.png</Source>
+      <Name>ButtonPurple2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\ButtonPurple2.xnb</Output>
+      <Time>2013-09-13T16:41:21.8296663-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ButtonBlue2.png</Source>
+      <Name>ButtonBlue2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\ButtonBlue2.xnb</Output>
+      <Time>2013-09-13T17:05:29.730572-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ButtonBlue3.png</Source>
+      <Name>ButtonBlue3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\ButtonBlue3.xnb</Output>
+      <Time>2013-09-13T17:05:29.743581-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ButtonGreen.png</Source>
+      <Name>ButtonGreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\ButtonGreen.xnb</Output>
+      <Time>2013-09-13T17:05:29.7515863-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ButtonPurple.PNG</Source>
+      <Name>ButtonPurple</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\ButtonPurple.xnb</Output>
+      <Time>2013-09-13T17:05:32.1666722-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ButtonWhite.jpg</Source>
+      <Name>ButtonWhite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\ButtonWhite.xnb</Output>
+      <Time>2013-09-13T17:05:32.1746788-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ButtonBlue.png</Source>
+      <Name>ButtonBlue</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\ButtonBlue.xnb</Output>
+      <Time>2013-09-13T17:07:14.302672-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Point.png</Source>
+      <Name>Point</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\Point.xnb</Output>
+      <Time>2013-09-15T00:24:31.5772786-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Radar.png</Source>
+      <Name>Radar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\Radar.xnb</Output>
+      <Time>2013-09-15T00:24:31.5972913-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ui_button_Large.spritefont</Source>
+      <Name>ui_button_Large</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\ui_button_Large.xnb</Output>
+      <Time>2013-09-13T17:02:43.1706568-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ui_button_Medium.spritefont</Source>
+      <Name>ui_button_Medium</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\ui_button_Medium.xnb</Output>
+      <Time>2013-09-13T17:02:44.1580342-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ui_button_Small.spritefont</Source>
+      <Name>ui_button_Small</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\ui_button_Small.xnb</Output>
+      <Time>2013-09-13T17:02:44.1650337-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ui_screen_Large.spritefont</Source>
+      <Name>ui_screen_Large</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\ui_screen_Large.xnb</Output>
+      <Time>2013-09-13T17:02:44.170038-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ui_screen_Medium.spritefont</Source>
+      <Name>ui_screen_Medium</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\ui_screen_Medium.xnb</Output>
+      <Time>2013-09-13T17:02:44.175041-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ui_screen_Small.spritefont</Source>
+      <Name>ui_screen_Small</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\ui_screen_Small.xnb</Output>
+      <Time>2013-09-13T17:02:44.1790431-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Asteroid1.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\Asteroid1_0.xml</Output>
+      <Time>2013-09-11T13:13:35.8416435-04:00</Time>
+    </Item>
+    <Item>
+      <Source>moon512.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\moon512_0.xnb</Output>
+      <Time>2008-08-18T13:35:30.375-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Asteroid2.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\Asteroid2_0.xml</Output>
+      <Time>2013-09-11T13:13:35.8416435-04:00</Time>
+    </Item>
+    <Item>
+      <Source>phobos.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\phobos_0.xnb</Output>
+      <Time>2008-09-06T16:21:03-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Asteroid3.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\Asteroid3_0.xml</Output>
+      <Time>2013-09-11T13:13:35.8416435-04:00</Time>
+    </Item>
+    <Item>
+      <Source>deimos.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\deimos_0.xnb</Output>
+      <Time>2008-09-06T16:22:33-04:00</Time>
+    </Item>
+    <Item>
+      <Source>FederalObserver01.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\FederalObserver01_0.xml</Output>
+      <Time>2013-09-10T19:33:56.8781461-04:00</Time>
+    </Item>
+    <Item>
+      <Source>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\FBX\C9402780\FederalObserver01.fbm\S01_512.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\S01_512_0.xnb</Output>
+      <Time>2013-09-15T11:34:13-04:00</Time>
+    </Item>
+    <Item>
+      <Source>FederalObserver02.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\FederalObserver02_0.xml</Output>
+      <Time>2013-09-10T19:33:56.8796463-04:00</Time>
+    </Item>
+    <Item>
+      <Source>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\FBX\C9452781\FederalObserver02.fbm\S02_512.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\S02_512_0.xnb</Output>
+      <Time>2013-09-15T11:34:14-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Ship.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\Ship_0.xml</Output>
+      <Time>2013-09-10T19:33:56.8876504-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ShipDiffuse.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\ShipDiffuse_0.xnb</Output>
+      <Time>2008-08-18T14:09:28-04:00</Time>
+    </Item>
+    <Item>
+      <Source>xwing.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\xwing_0.xml</Output>
+      <Time>2013-09-10T19:33:56.8991579-04:00</Time>
+    </Item>
+    <Item>
+      <Source>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\FBX\6952311\xwing.fbm\ENGINE2.TGA</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\ENGINE2_0.xnb</Output>
+      <Time>2013-09-15T11:34:20.3649465-04:00</Time>
+    </Item>
+    <Item>
+      <Source>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\FBX\6952311\xwing.fbm\WINGFRON.TGA</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\WINGFRON_0.xnb</Output>
+      <Time>2013-09-15T11:34:20.3729506-04:00</Time>
+    </Item>
+    <Item>
+      <Source>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\FBX\6952311\xwing.fbm\WINGBACK.TGA</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\WINGBACK_0.xnb</Output>
+      <Time>2013-09-15T11:34:20.3809571-04:00</Time>
+    </Item>
+    <Item>
+      <Source>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\FBX\6952311\xwing.fbm\WINGDOWN.TGA</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\WINGDOWN_0.xnb</Output>
+      <Time>2013-09-15T11:34:20.3889619-04:00</Time>
+    </Item>
+    <Item>
+      <Source>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\FBX\6952311\xwing.fbm\WINGTOP.TGA</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\WINGTOP_0.xnb</Output>
+      <Time>2013-09-15T11:34:20.3969672-04:00</Time>
+    </Item>
+    <Item>
+      <Source>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\FBX\6952311\xwing.fbm\LASER.TGA</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\LASER_0.xnb</Output>
+      <Time>2013-09-15T11:34:20.4049719-04:00</Time>
+    </Item>
+    <Item>
+      <Source>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\FBX\6952311\xwing.fbm\ENGINE.TGA</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\ENGINE_0.xnb</Output>
+      <Time>2013-09-15T11:34:20.4149792-04:00</Time>
+    </Item>
+    <Item>
+      <Source>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\FBX\6952311\xwing.fbm\XSIDE.TGA</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\XSIDE_0.xnb</Output>
+      <Time>2013-09-15T11:34:20.4369939-04:00</Time>
+    </Item>
+    <Item>
+      <Source>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\FBX\6952311\xwing.fbm\XWBACK.TGA</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\XWBACK_0.xnb</Output>
+      <Time>2013-09-15T11:34:20.445999-04:00</Time>
+    </Item>
+    <Item>
+      <Source>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\FBX\6952311\xwing.fbm\XWTOP.TGA</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\XWTOP_0.xnb</Output>
+      <Time>2013-09-15T11:34:20.4540049-04:00</Time>
+    </Item>
+    <Item>
+      <Source>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\FBX\6952311\xwing.fbm\XWDOWN.TGA</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\XWDOWN_0.xnb</Output>
+      <Time>2013-09-15T11:34:20.4640116-04:00</Time>
+    </Item>
+    <Item>
+      <Source>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\FBX\6952311\xwing.fbm\PLATEOX2.TGA</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\PLATEOX2_0.xnb</Output>
+      <Time>2013-09-15T11:34:20.4760196-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Asteroid4.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\Asteroid4_0.xml</Output>
+      <Time>2013-09-11T13:13:35.8416435-04:00</Time>
+    </Item>
+    <Item>
+      <Source>asteroid.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\asteroid_0.xnb</Output>
+      <Time>2008-09-06T16:12:33-04:00</Time>
+    </Item>
+    <Item>
+      <Source>LaserBlast.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\LaserBlast_0.xml</Output>
+      <Time>2013-09-11T17:24:29.2548494-04:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{32D4D5FF-B28A-4B56-BEC9-FFCA1A501804}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGameContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\obj\x86\Release\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGame\bin\x86\Release\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-09-09T13:01:15.8324958-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,2 @@
+c:\users\pc\documents\visual studio 2010\Projects\MyStepGame\MyStepGame\MyStepGameContent\obj\x86\Debug\MyStepGameContent.contentprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\MyStepGame\MyStepGameContent\obj\x86\Debug\MyStepGameContent.contentprojResolveAssemblyReference.cache

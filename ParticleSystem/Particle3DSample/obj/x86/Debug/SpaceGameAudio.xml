@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sections>
+  <WaveBank Name="Wave Bank">Wave Bank
+{
+    Name = Wave Bank;
+    Xbox File = Xbox\Wave Bank.xwb;
+    Windows File = Win\Wave Bank.xwb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Seek Tables = 1;
+    Compression Preset Name = &lt;none&gt;;
+    Bank Last Revised Low = 121875572;
+    Bank Last Revised High = 30358230;
+
+    Wave
+    {
+        Name = engine_2;
+        File = sound\engine_2.wav;
+        Build Settings Last Modified Low = 1881842466;
+        Build Settings Last Modified High = 30358200;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 473012;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3001020160;
+            Last Modified High = 29856165;
+        }
+    }
+
+    Wave
+    {
+        Name = DamageSound1;
+        File = sound\explosion2.wav;
+        Build Settings Last Modified Low = 4223506551;
+        Build Settings Last Modified High = 30358220;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 872448;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3001020160;
+            Last Modified High = 29856165;
+        }
+    }
+
+    Wave
+    {
+        Name = ExplosionSound1;
+        File = sound\explosion3.wav;
+        Build Settings Last Modified Low = 4223506551;
+        Build Settings Last Modified High = 30358220;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 468992;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3021020160;
+            Last Modified High = 29856165;
+        }
+    }
+
+    Wave
+    {
+        Name = Click;
+        File = sound\Click.wav;
+        Build Settings Last Modified Low = 2415610042;
+        Build Settings Last Modified High = 30358228;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 12504;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 402585472;
+            Last Modified High = 30039218;
+        }
+    }
+
+    Wave
+    {
+        Name = Highlight;
+        File = sound\Highlight.wav;
+        Build Settings Last Modified Low = 2415610042;
+        Build Settings Last Modified High = 30358228;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 28276;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 402585472;
+            Last Modified High = 30039218;
+        }
+    }
+
+    Wave
+    {
+        Name = FireLaser1;
+        File = sound\FireLaser1.wav;
+        Build Settings Last Modified Low = 81313252;
+        Build Settings Last Modified High = 30358230;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 443392;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3021020160;
+            Last Modified High = 29856165;
+        }
+    }
+}
+
+</WaveBank>
+</Sections>

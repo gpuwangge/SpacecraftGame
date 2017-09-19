@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AircraftGame", "AircraftGame\AircraftGame\AircraftGame.csproj", "{03D249E9-9509-4D8A-8EDF-C6FD7F14E293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AircraftGameContent", "AircraftGame\AircraftGameContent\AircraftGameContent.contentproj", "{32D4D5FF-B28A-4B56-BEC9-FFCA1A501804}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Particle3D", "ParticleSystem\Particle3DSample\Particle3D.csproj", "{2AEF1B32-62F0-45F3-888F-E455C1C99204}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03D249E9-9509-4D8A-8EDF-C6FD7F14E293}.Debug|x86.ActiveCfg = Debug|x86
+		{03D249E9-9509-4D8A-8EDF-C6FD7F14E293}.Debug|x86.Build.0 = Debug|x86
+		{03D249E9-9509-4D8A-8EDF-C6FD7F14E293}.Release|x86.ActiveCfg = Release|x86
+		{03D249E9-9509-4D8A-8EDF-C6FD7F14E293}.Release|x86.Build.0 = Release|x86
+		{32D4D5FF-B28A-4B56-BEC9-FFCA1A501804}.Debug|x86.ActiveCfg = Debug|x86
+		{32D4D5FF-B28A-4B56-BEC9-FFCA1A501804}.Release|x86.ActiveCfg = Release|x86
+		{2AEF1B32-62F0-45F3-888F-E455C1C99204}.Debug|x86.ActiveCfg = Debug|x86
+		{2AEF1B32-62F0-45F3-888F-E455C1C99204}.Debug|x86.Build.0 = Debug|x86
+		{2AEF1B32-62F0-45F3-888F-E455C1C99204}.Release|x86.ActiveCfg = Release|x86
+		{2AEF1B32-62F0-45F3-888F-E455C1C99204}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\MyStepGame\MyStepGameContent\obj\x86\Debug\AircraftGameContent.contentprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\MyStepGameContent\obj\x86\Debug\AircraftGameContent.contentprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\MySurface\Dropbox\Demo04\AircraftGame\AircraftGameContent\obj\x86\Debug\AircraftGameContent.contentprojResolveAssemblyReference.cache
+D:\Dropbox\Demo04\AircraftGame\AircraftGameContent\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Demo04\AircraftGame\AircraftGameContent\obj\x86\Debug\AircraftGameContent.contentprojResolveAssemblyReference.cache

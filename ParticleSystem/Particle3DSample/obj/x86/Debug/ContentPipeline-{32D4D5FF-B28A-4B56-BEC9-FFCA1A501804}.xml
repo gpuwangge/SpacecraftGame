@@ -1,0 +1,967 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Asteroid1.FBX</Source>
+      <Name>Asteroid1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\Asteroid1.xnb</Output>
+      <Time>2013-09-11T13:13:35-04:00</Time>
+      <Dependency>
+        <Key>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\Asteroid1_0.xml</Key>
+        <Value>2017-04-24T19:08:40.2291008-04:00</Value>
+      </Dependency>
+      <Request>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\moon512_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Asteroid2.FBX</Source>
+      <Name>Asteroid2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\Asteroid2.xnb</Output>
+      <Time>2013-09-11T13:13:35-04:00</Time>
+      <Dependency>
+        <Key>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\Asteroid2_0.xml</Key>
+        <Value>2017-04-24T19:08:40.5993947-04:00</Value>
+      </Dependency>
+      <Request>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\phobos_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Asteroid3.FBX</Source>
+      <Name>Asteroid3</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\Asteroid3.xnb</Output>
+      <Time>2013-09-11T13:13:35-04:00</Time>
+      <Dependency>
+        <Key>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\Asteroid3_0.xml</Key>
+        <Value>2017-04-24T19:08:40.7391178-04:00</Value>
+      </Dependency>
+      <Request>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\deimos_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>FederalObserver01.FBX</Source>
+      <Name>FederalObserver01</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\FederalObserver01.xnb</Output>
+      <Time>2013-09-10T19:33:56-04:00</Time>
+      <Dependency>
+        <Key>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\FederalObserver01_0.xml</Key>
+        <Value>2017-04-24T19:08:40.8422258-04:00</Value>
+      </Dependency>
+      <Request>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\S01_512_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>FederalObserver02.FBX</Source>
+      <Name>FederalObserver02</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\FederalObserver02.xnb</Output>
+      <Time>2013-09-10T19:33:56-04:00</Time>
+      <Dependency>
+        <Key>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\FederalObserver02_0.xml</Key>
+        <Value>2017-04-24T19:08:40.9919362-04:00</Value>
+      </Dependency>
+      <Request>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\S02_512_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Ship.fbx</Source>
+      <Name>Ship</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\Ship.xnb</Output>
+      <Time>2011-08-29T19:48:39-04:00</Time>
+      <Dependency>
+        <Key>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\Ship_0.xml</Key>
+        <Value>2017-04-24T19:08:41.9310103-04:00</Value>
+      </Dependency>
+      <Request>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\ShipDiffuse_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>xwing.fbx</Source>
+      <Name>xwing</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\xwing.xnb</Output>
+      <Time>2008-09-01T16:42:17-04:00</Time>
+      <Dependency>
+        <Key>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\xwing_0.xml</Key>
+        <Value>2017-04-24T19:08:42.7243869-04:00</Value>
+      </Dependency>
+      <Request>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\ENGINE2_0.xnb</Request>
+      <Request>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\WINGFRON_0.xnb</Request>
+      <Request>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\WINGBACK_0.xnb</Request>
+      <Request>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\WINGDOWN_0.xnb</Request>
+      <Request>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\WINGTOP_0.xnb</Request>
+      <Request>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\LASER_0.xnb</Request>
+      <Request>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\ENGINE_0.xnb</Request>
+      <Request>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\XSIDE_0.xnb</Request>
+      <Request>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\XWBACK_0.xnb</Request>
+      <Request>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\XWTOP_0.xnb</Request>
+      <Request>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\XWDOWN_0.xnb</Request>
+      <Request>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\PLATEOX2_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Asteroid4.FBX</Source>
+      <Name>Asteroid4</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\Asteroid4.xnb</Output>
+      <Time>2013-09-11T13:13:35-04:00</Time>
+      <Dependency>
+        <Key>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\Asteroid4_0.xml</Key>
+        <Value>2017-04-24T19:08:43.0859919-04:00</Value>
+      </Dependency>
+      <Request>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\asteroid_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>LaserBlast.FBX</Source>
+      <Name>LaserBlast</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\LaserBlast.xnb</Output>
+      <Time>2013-09-11T17:24:29-04:00</Time>
+      <Dependency>
+        <Key>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\LaserBlast_0.xml</Key>
+        <Value>2017-04-24T19:08:43.2112999-04:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Planet01.FBX</Source>
+      <Name>Planet01</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\Planet01.xnb</Output>
+      <Time>2013-09-20T14:32:28-04:00</Time>
+      <Dependency>
+        <Key>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\Planet01_0.xml</Key>
+        <Value>2017-04-24T19:08:43.9036348-04:00</Value>
+      </Dependency>
+      <Request>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\Planet01_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Planet02.FBX</Source>
+      <Name>Planet02</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\Planet02.xnb</Output>
+      <Time>2013-09-20T14:32:28-04:00</Time>
+      <Dependency>
+        <Key>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\Planet02_0.xml</Key>
+        <Value>2017-04-24T19:08:45.0744644-04:00</Value>
+      </Dependency>
+      <Request>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\planet02_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Background15.jpg</Source>
+      <Name>Background15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\Background15.xnb</Output>
+      <Time>2017-04-24T19:07:40.7429452-04:00</Time>
+    </Item>
+    <Item>
+      <Source>cloud09.jpg</Source>
+      <Name>cloud09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\cloud09.xnb</Output>
+      <Time>2011-07-30T02:05:13-04:00</Time>
+    </Item>
+    <Item>
+      <Source>splash.jpg</Source>
+      <Name>splash</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\splash.xnb</Output>
+      <Time>2010-11-26T05:50:38-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Background01.jpg</Source>
+      <Name>Background01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\Background01.xnb</Output>
+      <Time>2013-09-13T16:34:59-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ButtonPurple2.png</Source>
+      <Name>ButtonPurple2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\ButtonPurple2.xnb</Output>
+      <Time>2013-09-13T16:41:21-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ButtonBlue2.png</Source>
+      <Name>ButtonBlue2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\ButtonBlue2.xnb</Output>
+      <Time>2013-09-13T17:05:29-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ButtonBlue3.png</Source>
+      <Name>ButtonBlue3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\ButtonBlue3.xnb</Output>
+      <Time>2013-09-13T17:05:29-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ButtonGreen.png</Source>
+      <Name>ButtonGreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\ButtonGreen.xnb</Output>
+      <Time>2013-09-13T17:05:29-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ButtonPurple.PNG</Source>
+      <Name>ButtonPurple</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\ButtonPurple.xnb</Output>
+      <Time>2011-07-31T13:57:30-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ButtonWhite.jpg</Source>
+      <Name>ButtonWhite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\ButtonWhite.xnb</Output>
+      <Time>2013-09-13T17:05:32-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ButtonBlue.png</Source>
+      <Name>ButtonBlue</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\ButtonBlue.xnb</Output>
+      <Time>2013-09-13T17:07:14-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Point.png</Source>
+      <Name>Point</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\Point.xnb</Output>
+      <Time>2013-09-15T00:24:31-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Radar.png</Source>
+      <Name>Radar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\Radar.xnb</Output>
+      <Time>2013-09-15T00:24:31-04:00</Time>
+    </Item>
+    <Item>
+      <Source>combine3.jpg</Source>
+      <Name>combine3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\combine3.xnb</Output>
+      <Time>2013-09-20T12:59:58-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Pilot1.jpg</Source>
+      <Name>Pilot1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\Pilot1.xnb</Output>
+      <Time>2017-04-25T08:39:51.7198656-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Pilot2.jpg</Source>
+      <Name>Pilot2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\Pilot2.xnb</Output>
+      <Time>2013-09-22T19:50:30-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Pilot3.jpg</Source>
+      <Name>Pilot3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\Pilot3.xnb</Output>
+      <Time>2013-09-22T19:50:30-04:00</Time>
+    </Item>
+    <Item>
+      <Source>white1.jpg</Source>
+      <Name>white1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\white1.xnb</Output>
+      <Time>2013-09-22T20:05:57-04:00</Time>
+    </Item>
+    <Item>
+      <Source>white2.jpg</Source>
+      <Name>white2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\white2.xnb</Output>
+      <Time>2013-09-22T20:05:57-04:00</Time>
+    </Item>
+    <Item>
+      <Source>white3.jpg</Source>
+      <Name>white3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\white3.xnb</Output>
+      <Time>2013-09-22T20:05:57-04:00</Time>
+    </Item>
+    <Item>
+      <Source>checker.bmp</Source>
+      <Name>checker</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\checker.xnb</Output>
+      <Time>2013-09-24T17:23:21-04:00</Time>
+    </Item>
+    <Item>
+      <Source>explosion.png</Source>
+      <Name>explosion</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\explosion.xnb</Output>
+      <Time>2013-09-24T17:30:27-04:00</Time>
+    </Item>
+    <Item>
+      <Source>fire.png</Source>
+      <Name>fire</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\fire.xnb</Output>
+      <Time>2013-09-24T17:23:21-04:00</Time>
+    </Item>
+    <Item>
+      <Source>smoke.png</Source>
+      <Name>smoke</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\smoke.xnb</Output>
+      <Time>2013-09-24T17:30:27-04:00</Time>
+    </Item>
+    <Item>
+      <Source>sphere.png</Source>
+      <Name>sphere</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\sphere.xnb</Output>
+      <Time>2013-09-24T17:30:27-04:00</Time>
+    </Item>
+    <Item>
+      <Source>circle.png</Source>
+      <Name>circle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\circle.xnb</Output>
+      <Time>2013-09-24T17:30:24-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ui_button_Large.spritefont</Source>
+      <Name>ui_button_Large</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\ui_button_Large.xnb</Output>
+      <Time>2011-07-31T01:53:32-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ui_button_Medium.spritefont</Source>
+      <Name>ui_button_Medium</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\ui_button_Medium.xnb</Output>
+      <Time>2011-08-05T02:30:29-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ui_button_Small.spritefont</Source>
+      <Name>ui_button_Small</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\ui_button_Small.xnb</Output>
+      <Time>2011-08-05T01:53:22-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ui_screen_Large.spritefont</Source>
+      <Name>ui_screen_Large</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\ui_screen_Large.xnb</Output>
+      <Time>2011-08-05T02:00:24-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ui_screen_Medium.spritefont</Source>
+      <Name>ui_screen_Medium</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\ui_screen_Medium.xnb</Output>
+      <Time>2011-08-05T02:00:36-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ui_screen_Small.spritefont</Source>
+      <Name>ui_screen_Small</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\ui_screen_Small.xnb</Output>
+      <Time>2011-08-05T01:59:03-04:00</Time>
+    </Item>
+    <Item>
+      <Source>font.spritefont</Source>
+      <Name>font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\font.xnb</Output>
+      <Time>2013-09-24T17:23:21-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ParticleEffect.fx</Source>
+      <Name>ParticleEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\ParticleEffect.xnb</Output>
+      <Time>2013-09-24T17:23:21-04:00</Time>
+    </Item>
+    <Item>
+      <Source>grid.x</Source>
+      <Name>grid</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\grid.xnb</Output>
+      <Time>2013-09-24T17:26:37-04:00</Time>
+      <Dependency>
+        <Key>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\grid_0.xml</Key>
+        <Value>2017-04-24T19:08:46.7614299-04:00</Value>
+      </Dependency>
+      <Request>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\checker_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Asteroid1.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\Asteroid1_0.xml</Output>
+      <Time>2013-09-11T13:13:35-04:00</Time>
+    </Item>
+    <Item>
+      <Source>moon512.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\moon512_0.xnb</Output>
+      <Time>2008-08-18T13:35:30-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Asteroid2.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\Asteroid2_0.xml</Output>
+      <Time>2013-09-11T13:13:35-04:00</Time>
+    </Item>
+    <Item>
+      <Source>phobos.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\phobos_0.xnb</Output>
+      <Time>2008-09-06T16:21:03-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Asteroid3.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\Asteroid3_0.xml</Output>
+      <Time>2013-09-11T13:13:35-04:00</Time>
+    </Item>
+    <Item>
+      <Source>deimos.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\deimos_0.xnb</Output>
+      <Time>2008-09-06T16:22:33-04:00</Time>
+    </Item>
+    <Item>
+      <Source>FederalObserver01.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\FederalObserver01_0.xml</Output>
+      <Time>2013-09-10T19:33:56-04:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\FBX\250A18E9\FederalObserver01.fbm\S01_512.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\S01_512_0.xnb</Output>
+      <Time>2017-04-24T19:08:40.825213-04:00</Time>
+    </Item>
+    <Item>
+      <Source>FederalObserver02.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\FederalObserver02_0.xml</Output>
+      <Time>2013-09-10T19:33:56-04:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\FBX\250F18EA\FederalObserver02.fbm\S02_512.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\S02_512_0.xnb</Output>
+      <Time>2017-04-24T19:08:40.9799289-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Ship.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\Ship_0.xml</Output>
+      <Time>2011-08-29T19:48:39-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ShipDiffuse.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\ShipDiffuse_0.xnb</Output>
+      <Time>2008-08-18T14:09:28-04:00</Time>
+    </Item>
+    <Item>
+      <Source>xwing.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\xwing_0.xml</Output>
+      <Time>2008-09-01T16:42:17-04:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\FBX\1173147A\xwing.fbm\ENGINE2.TGA</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\ENGINE2_0.xnb</Output>
+      <Time>2017-04-24T19:08:42.1248471-04:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\FBX\1173147A\xwing.fbm\WINGFRON.TGA</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\WINGFRON_0.xnb</Output>
+      <Time>2017-04-24T19:08:42.1333548-04:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\FBX\1173147A\xwing.fbm\WINGBACK.TGA</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\WINGBACK_0.xnb</Output>
+      <Time>2017-04-24T19:08:42.1368553-04:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\FBX\1173147A\xwing.fbm\WINGDOWN.TGA</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\WINGDOWN_0.xnb</Output>
+      <Time>2017-04-24T19:08:42.1398563-04:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\FBX\1173147A\xwing.fbm\WINGTOP.TGA</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\WINGTOP_0.xnb</Output>
+      <Time>2017-04-24T19:08:42.1423582-04:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\FBX\1173147A\xwing.fbm\LASER.TGA</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\LASER_0.xnb</Output>
+      <Time>2017-04-24T19:08:42.1453614-04:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\FBX\1173147A\xwing.fbm\ENGINE.TGA</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\ENGINE_0.xnb</Output>
+      <Time>2017-04-24T19:08:42.147862-04:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\FBX\1173147A\xwing.fbm\XSIDE.TGA</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\XSIDE_0.xnb</Output>
+      <Time>2017-04-24T19:08:42.1531499-04:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\FBX\1173147A\xwing.fbm\XWBACK.TGA</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\XWBACK_0.xnb</Output>
+      <Time>2017-04-24T19:08:42.1561507-04:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\FBX\1173147A\xwing.fbm\XWTOP.TGA</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\XWTOP_0.xnb</Output>
+      <Time>2017-04-24T19:08:42.1591505-04:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\FBX\1173147A\xwing.fbm\XWDOWN.TGA</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\XWDOWN_0.xnb</Output>
+      <Time>2017-04-24T19:08:42.1631518-04:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\FBX\1173147A\xwing.fbm\PLATEOX2.TGA</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\PLATEOX2_0.xnb</Output>
+      <Time>2017-04-24T19:08:42.1666532-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Asteroid4.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\Asteroid4_0.xml</Output>
+      <Time>2013-09-11T13:13:35-04:00</Time>
+    </Item>
+    <Item>
+      <Source>asteroid.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\asteroid_0.xnb</Output>
+      <Time>2008-09-06T16:12:33-04:00</Time>
+    </Item>
+    <Item>
+      <Source>LaserBlast.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\LaserBlast_0.xml</Output>
+      <Time>2013-09-11T17:24:29-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Planet01.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\Planet01_0.xml</Output>
+      <Time>2013-09-20T14:32:28-04:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\FBX\4E9F1532\Planet01.fbm\Planet01.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\Planet01_0.xnb</Output>
+      <Time>2017-04-24T19:08:43.3051818-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Planet02.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\Planet02_0.xml</Output>
+      <Time>2013-09-20T14:32:28-04:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\FBX\4EA41533\Planet02.fbm\planet02.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\planet02_0.xnb</Output>
+      <Time>2017-04-24T19:08:44.4653901-04:00</Time>
+    </Item>
+    <Item>
+      <Source>grid.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\grid_0.xml</Output>
+      <Time>2013-09-24T17:26:37-04:00</Time>
+    </Item>
+    <Item>
+      <Source>checker.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\checker_0.xnb</Output>
+      <Time>2013-09-24T17:23:21-04:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{32D4D5FF-B28A-4B56-BEC9-FFCA1A501804}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>D:\Demo04\AircraftGame\AircraftGameContent\</RootDirectory>
+      <LoggerRootDirectory>D:\Demo04\ParticleSystem\Particle3DSample\</LoggerRootDirectory>
+      <IntermediateDirectory>D:\Demo04\ParticleSystem\Particle3DSample\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>D:\Demo04\ParticleSystem\Particle3DSample\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2017-04-13T09:31:41.8036155-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
