@@ -15,8 +15,14 @@ https://www.youtube.com/watch?v=_eaDlYbe_Aw
 
 
 ==Setup Instructions==
+
 1.Install VS2010
+
 2.Install VS2010SP (VS10sp1-KB983509)
+
 3.Install DX09
+
 4.Install XNA4.0
+
 5.Install XNA4.0 Refresh
+
