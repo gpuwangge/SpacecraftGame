@@ -6,7 +6,7 @@ I extended the class project and combined it with an innovated particle system t
 
 I stop working on this one because XNA is no longer supported by Microsoft. Will move on with other game engine.
 
-Materials(object meshes, sound, part of code) are from CSE471 websites made by Dr. Charlies Owen from Michigan State University.
+Assets(object meshes, sound and part of the code) are from CSE473 websites made by Professor Charlies Owen from Michigan State University. (https://www.cse.msu.edu/~cse473/Syllabus.pdf)
  
 Video Demos:
 https://www.youtube.com/watch?v=JJ-c4RJRqmI
