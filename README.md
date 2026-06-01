@@ -1,6 +1,6 @@
 # SpacecraftGame
 
-This is an extended project for MSU CSE471 by Xiaojun Wang
+This is an extended project for MSU CSE471
 
 I extended the class project and combined it with an innovated particle system to simulate fire, explosion, smoke and laser effect.
 
